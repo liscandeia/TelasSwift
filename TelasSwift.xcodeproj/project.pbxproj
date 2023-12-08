@@ -13,6 +13,19 @@
 		A313A40E2B2341DF00612A69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A313A40C2B2341DF00612A69 /* Main.storyboard */; };
 		A313A4102B2341E700612A69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A313A40F2B2341E700612A69 /* Assets.xcassets */; };
 		A313A4132B2341E700612A69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A313A4112B2341E700612A69 /* LaunchScreen.storyboard */; };
+		A313A41E2B2342FA00612A69 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313A41D2B2342FA00612A69 /* Color+.swift */; };
+		A313A4212B23463A00612A69 /* ButtonDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313A4202B23463A00612A69 /* ButtonDefault.swift */; };
+		A313A4282B23475800612A69 /* RedScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313A4272B23475800612A69 /* RedScreenView.swift */; };
+		A313A42A2B23476800612A69 /* RedScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313A4292B23476800612A69 /* RedScreenViewController.swift */; };
+		A313A42C2B23477A00612A69 /* GreenScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313A42B2B23477A00612A69 /* GreenScreenView.swift */; };
+		A313A42E2B23479500612A69 /* GreenScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313A42D2B23479500612A69 /* GreenScreenViewController.swift */; };
+		A313A4302B2347A600612A69 /* BlueScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313A42F2B2347A600612A69 /* BlueScreenView.swift */; };
+		A313A4332B2347BE00612A69 /* BlueScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313A4322B2347BE00612A69 /* BlueScreenViewController.swift */; };
+		A313A4372B234C6200612A69 /* ViewControllerDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313A4362B234C6200612A69 /* ViewControllerDefault.swift */; };
+		A313A4392B234DFB00612A69 /* BlueScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313A4382B234DFB00612A69 /* BlueScreenCoordinator.swift */; };
+		A313A43B2B234E1800612A69 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313A43A2B234E1800612A69 /* Coordinator.swift */; };
+		A313A43D2B234EE100612A69 /* GreenScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313A43C2B234EE100612A69 /* GreenScreenCoordinator.swift */; };
+		A313A43F2B234FAF00612A69 /* RedScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313A43E2B234FAF00612A69 /* RedScreenCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,19 @@
 		A313A40F2B2341E700612A69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A313A4122B2341E700612A69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A313A4142B2341E700612A69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A313A41D2B2342FA00612A69 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		A313A4202B23463A00612A69 /* ButtonDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDefault.swift; sourceTree = "<group>"; };
+		A313A4272B23475800612A69 /* RedScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedScreenView.swift; sourceTree = "<group>"; };
+		A313A4292B23476800612A69 /* RedScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedScreenViewController.swift; sourceTree = "<group>"; };
+		A313A42B2B23477A00612A69 /* GreenScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScreenView.swift; sourceTree = "<group>"; };
+		A313A42D2B23479500612A69 /* GreenScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScreenViewController.swift; sourceTree = "<group>"; };
+		A313A42F2B2347A600612A69 /* BlueScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueScreenView.swift; sourceTree = "<group>"; };
+		A313A4322B2347BE00612A69 /* BlueScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueScreenViewController.swift; sourceTree = "<group>"; };
+		A313A4362B234C6200612A69 /* ViewControllerDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDefault.swift; sourceTree = "<group>"; };
+		A313A4382B234DFB00612A69 /* BlueScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueScreenCoordinator.swift; sourceTree = "<group>"; };
+		A313A43A2B234E1800612A69 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		A313A43C2B234EE100612A69 /* GreenScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScreenCoordinator.swift; sourceTree = "<group>"; };
+		A313A43E2B234FAF00612A69 /* RedScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedScreenCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +82,100 @@
 		A313A4052B2341DF00612A69 /* TelasSwift */ = {
 			isa = PBXGroup;
 			children = (
+				A313A41B2B23421A00612A69 /* Resource */,
+				A313A41A2B23421300612A69 /* Source */,
+				A313A4142B2341E700612A69 /* Info.plist */,
+			);
+			path = TelasSwift;
+			sourceTree = "<group>";
+		};
+		A313A41A2B23421300612A69 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A313A4232B2346EE00612A69 /* Coordinator */,
+				A313A4222B2346E500612A69 /* Controller */,
+				A313A41F2B23460800612A69 /* Infrastructure */,
+				A313A41C2B2342D300612A69 /* Extension */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A313A41B2B23421A00612A69 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
 				A313A4062B2341DF00612A69 /* AppDelegate.swift */,
 				A313A4082B2341DF00612A69 /* SceneDelegate.swift */,
 				A313A40A2B2341DF00612A69 /* ViewController.swift */,
 				A313A40C2B2341DF00612A69 /* Main.storyboard */,
 				A313A40F2B2341E700612A69 /* Assets.xcassets */,
 				A313A4112B2341E700612A69 /* LaunchScreen.storyboard */,
-				A313A4142B2341E700612A69 /* Info.plist */,
 			);
-			path = TelasSwift;
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A313A41C2B2342D300612A69 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A313A41D2B2342FA00612A69 /* Color+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A313A41F2B23460800612A69 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				A313A4202B23463A00612A69 /* ButtonDefault.swift */,
+				A313A4362B234C6200612A69 /* ViewControllerDefault.swift */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		A313A4222B2346E500612A69 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A313A4262B23474400612A69 /* redScreen */,
+				A313A4252B23473300612A69 /* greenScreen */,
+				A313A4242B2346F900612A69 /* blueScreen */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A313A4232B2346EE00612A69 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A313A4382B234DFB00612A69 /* BlueScreenCoordinator.swift */,
+				A313A43A2B234E1800612A69 /* Coordinator.swift */,
+				A313A43C2B234EE100612A69 /* GreenScreenCoordinator.swift */,
+				A313A43E2B234FAF00612A69 /* RedScreenCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A313A4242B2346F900612A69 /* blueScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A313A42F2B2347A600612A69 /* BlueScreenView.swift */,
+				A313A4322B2347BE00612A69 /* BlueScreenViewController.swift */,
+			);
+			path = blueScreen;
+			sourceTree = "<group>";
+		};
+		A313A4252B23473300612A69 /* greenScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A313A42B2B23477A00612A69 /* GreenScreenView.swift */,
+				A313A42D2B23479500612A69 /* GreenScreenViewController.swift */,
+			);
+			path = greenScreen;
+			sourceTree = "<group>";
+		};
+		A313A4262B23474400612A69 /* redScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A313A4272B23475800612A69 /* RedScreenView.swift */,
+				A313A4292B23476800612A69 /* RedScreenViewController.swift */,
+			);
+			path = redScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +249,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A313A4302B2347A600612A69 /* BlueScreenView.swift in Sources */,
+				A313A42A2B23476800612A69 /* RedScreenViewController.swift in Sources */,
 				A313A40B2B2341DF00612A69 /* ViewController.swift in Sources */,
+				A313A41E2B2342FA00612A69 /* Color+.swift in Sources */,
+				A313A43F2B234FAF00612A69 /* RedScreenCoordinator.swift in Sources */,
+				A313A4282B23475800612A69 /* RedScreenView.swift in Sources */,
+				A313A42C2B23477A00612A69 /* GreenScreenView.swift in Sources */,
+				A313A43B2B234E1800612A69 /* Coordinator.swift in Sources */,
+				A313A4212B23463A00612A69 /* ButtonDefault.swift in Sources */,
 				A313A4072B2341DF00612A69 /* AppDelegate.swift in Sources */,
+				A313A42E2B23479500612A69 /* GreenScreenViewController.swift in Sources */,
+				A313A4332B2347BE00612A69 /* BlueScreenViewController.swift in Sources */,
+				A313A4372B234C6200612A69 /* ViewControllerDefault.swift in Sources */,
+				A313A43D2B234EE100612A69 /* GreenScreenCoordinator.swift in Sources */,
 				A313A4092B2341DF00612A69 /* SceneDelegate.swift in Sources */,
+				A313A4392B234DFB00612A69 /* BlueScreenCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
