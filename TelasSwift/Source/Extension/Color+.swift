@@ -10,5 +10,5 @@ import UIKit
 extension UIColor{
     static let customBackgroundColorBlue = UIColor(named: "backgroundColorBlue") ?? .blue
     static let customBackgroundColorGreen = UIColor(named: "backgroundColorGreen") ?? .green
-    static let customBackgroundColorRed = UIColor(named: "backgroundColorRed") ?? .red
+    static let customBackgroundColorRed = UIColor(named: "backGroundColorRed") ?? .red
 }
